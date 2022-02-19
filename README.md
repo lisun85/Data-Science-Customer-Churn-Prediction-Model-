@@ -4,7 +4,7 @@ The goal of this project is to use machine learning classification algorithms to
 
 Design
 
-PDAX is a Cryptocurrency Trading Exchange in the Philippines. They’ve been successful and have grown to 500k users in the country. Despite PDAX’s growth, they are not aware of the amount of customer churn in their customer base. Every month a significant amount of their customer who traded on PDAX’s platform last quarter will churn and not trade at all. Thus, the problem we are trying to solve is: How can we predict which of PDAX’s customers will churn next month?
+PDAX is a Cryptocurrency Trading Exchange in the Philippines. They’ve been successful and have grown to 500k users in the country. Despite PDAX’s growth, they are not fully aware of the amount of customer churn in their customer base. Every month an amount of their customer who traded on PDAX’s platform last quarter will churn and not trade at all. Thus, the problem we are trying to solve is: How can we predict which of PDAX’s customers will churn next month?
 
 Data
 
