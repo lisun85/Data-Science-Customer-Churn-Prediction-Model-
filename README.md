@@ -14,7 +14,7 @@ Algorithms / Solution Paths
 
 Data Cleaning & Feature Engineering
 
-	Cleaning the data – Data is cleaned. All users who hasn’t traded in the last 10 weeks was deleted. This narrowed the total rows from 150k+ to 26k.
+	Cleaning the data – Data is cleaned. All users who hasn’t traded in the last 10 weeks was deleted.
 
 	Feature Engineering – I was able to engineer the two dynamic features, which is taking a ratio of trades vs. no trade + netting last month’s of deposits and withdrawals.
 
