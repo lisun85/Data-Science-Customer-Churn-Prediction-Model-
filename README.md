@@ -1,7 +1,5 @@
 # PDAX-Customer-Churn-Prediction-Model-
-PDAX – Predicting Customer Churn
-By: Li Sun
-Abstract
+
 The goal of this project is to use machine learning classification algorithms to generate predictions on PDAX’s customer churn. Working with PDAX’s actual data, I created three classification models: logistic regression, random forest, and XGboost. All three models performed well given the data. 
 
 Design
