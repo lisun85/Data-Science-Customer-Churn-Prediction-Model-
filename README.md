@@ -10,7 +10,7 @@ Data
 
 Using SQL, I pulled 10 features of data, broken down into two sections – static data and dynamic data. At a per customer level (each row is a customer), Static Data includes features such as age, gender, address, phone number, etc. Dynamic data consists of a ratio:  # of trades in the last two weeks / # of trades in the 8 weeks (before last two weeks). That way I use 10 weeks of trailing data to predict churn. Additionally, I included another dynamic data which is the monthly net deposit / per customer.  Dataset is small with ~26k rows. All data is private owned by PDAX and is not disclosed publicly.
 
-Algorithms / Solution Paths
+Algorithms
 
 Data Cleaning & Feature Engineering
 
