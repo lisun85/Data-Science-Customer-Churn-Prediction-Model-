@@ -10,8 +10,8 @@ Using SQL, I pulled 10 features of data, broken down into two sections – stati
 
 Algorithms / Solution Paths
 Data Cleaning & Feature Engineering
-	Cleaning the data – Data is cleaned. All users who hasn’t traded in the last 10 weeks was deleted. This narrowed the total rows from 150k+ to 26k.
-	Feature Engineering – I was able to engineer the two dynamic features, which is taking a ratio of trades vs. no trade + netting last month’s of deposits and withdrawals.
+Cleaning the data – Data is cleaned. All users who hasn’t traded in the last 10 weeks was deleted. This narrowed the total rows from 150k+ to 26k.
+Feature Engineering – I was able to engineer the two dynamic features, which is taking a ratio of trades vs. no trade + netting last month’s of deposits and withdrawals.
 	Class imbalance –  to correct the data imbalance, I tried both oversampling and using class weights, which either adversely affected or did not affect performance.
 Machine Learning Algorithms:
 	Logistic Regression – Running Logistic Regression as my initial model, I was able to get a good performance of 73% accuracy, 74% Precision, and 98% Recall with overall F1 at 84% 
