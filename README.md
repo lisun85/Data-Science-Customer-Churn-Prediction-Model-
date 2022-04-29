@@ -1,6 +1,6 @@
 # PDAX-Customer-Churn-Prediction-Model-
 
-The goal of this project is to use machine learning classification algorithms to generate predictions on PDAX’s customer churn. Working with PDAX’s actual data, I built three classification models: logistic regression, random forest, and XGboost. All three models performed well given the data. 
+The goal of this project is to use machine learning classification algorithms to predict PDAX’s monthly customer churn. Customer churn in this case is defined as "making no trades" next month.  Working with PDAX’s actual data (privately own and not disclosed), I built three classification models: logistic regression, random forest, and XGboost. All three models performed well given the data. 
 
 Design
 
@@ -8,7 +8,7 @@ PDAX is a Cryptocurrency Trading Exchange in the Philippines. They’ve been suc
 
 Data
 
-Using SQL, I pulled 10 features of data, broken down into two sections – static data and dynamic data. At a per customer level (each row is a customer), Static Data includes features such as age, gender, address, phone number, etc. Dynamic data consists of a ratio:  # of trades in the last two weeks / # of trades in the 8 weeks (before last two weeks). That way I use 10 weeks of trailing data to predict churn. Additionally, I included another dynamic data which is the monthly net deposit / per customer.  Dataset is small with ~26k rows. All data is private owned by PDAX and is not disclosed publicly.
+Using SQL, I pulled 10 features of data, broken down into two sections – static data and dynamic data. At a per customer level (each row is a customer), Static Data includes features such as age, gender, address, phone number, etc. Dynamic data consists of a ratio:  # of trades in the last two weeks / # of trades in the 8 weeks (before last two weeks). That way I use 10 weeks of trailing data to predict churn. Additionally, I included another dynamic data which is the monthly net deposit / per customer. All data is private owned by PDAX and is not disclosed publicly.
 
 Algorithms
 
@@ -31,7 +31,3 @@ Machine Learning Algorithms:
 Tools
 
 Sklearn, Pandas, Numpy, Matplot, SQL
-
-Communication
-
-Slides and visuals are in PPT, submitted via PDF. 
